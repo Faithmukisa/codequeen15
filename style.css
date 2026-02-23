@@ -1,12 +1,23 @@
 *{
 
-
-    background-color: aqua
+    background-color: oklab(90.54100000000001% -0.14945 -0.0395);
 
 }
 h1{
     color: rgb(7, 69, 105);
 }
 img{
-    width:200px
+    width:200px;
+ }
+ 
+ .swimming{
+    color: hsl(313, 97%, 61%);
+ }
+ 
+ .hobbies{
+    color: #b81f92;
+ }
+ 
+ .colors{
+    color: #b81f92;
  }
