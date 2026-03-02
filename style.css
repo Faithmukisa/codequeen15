@@ -30,12 +30,21 @@ img{
    padding: 30px;
 }
 
-/*My flexbox properties*/
-
 .child{
-   background-color: oklab(41.544% 0.14561 -0.052);
+   background-color: blueviolet;
    display: flex;
-   /*flex-direction: row;*/
-   /*gap: 10px;*/
+   /* flex-direction:row; */
    justify-content: space-between;
+}
+
+/* blue container */
+.blue-container{
+   border:3px hwb(315 12% 28%) solid; 
+   display: flex;
+   flex-direction: row;
+}
+
+.Flex-items{
+   border:2px lab(26.27% 51.93 -76.93) solid;
+   margin:5px ;
 }
